@@ -1,5 +1,5 @@
-# To output text
 
+#output hello world
 "Hello World!"
 'Hello World!'
 
@@ -10,8 +10,8 @@
 
 # Variable
 
-name <- "Amit"
-name<-"Snehal"
+name <- "pratik"
+name<-"Saloni"
 name
 age <- 25
 age
@@ -281,7 +281,7 @@ food[food$type=='Nonveg',c("name","price")]
 food[food$taste=='Spicy' & food$price<300,]
 
 
-# Orange, mtcars are built in data set. Learn with this dataset.
+# Orange, mtcars are built in data set.
 Orange
 mtcars
 
@@ -295,15 +295,4 @@ mtcars$cyl # individual col cyl values
 table(mtcars$cyl) # there are 11 cars having 4 cylinders, 7 cars - 6 cyl, 14 cars - 8 cyl
 
 
-#USArrests - another dataset
-USArrests
-help("USArrests")
-View(USArrests) # dataset opens in new windows in table structure 
-
-head(USArrests) #by default shows first 6 records
-tail(USArrests)
-head(USArrests,8)
-
-# check all available datasets
-data()
 
