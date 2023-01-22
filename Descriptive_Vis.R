@@ -200,14 +200,6 @@ kurtosis(e_quakes$mag)
 
 
 
-# HOME WORK
-# iris_data<-datasets::iris
-# perform all steps on iris dataset that you have performed on airquality and quakes dataset
-
-
-# to import xml files in R, first install XML package
-# 
-install.packages("XML")
 
 
 
